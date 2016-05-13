@@ -1,12 +1,9 @@
-@media (min-width: 1200px)
-.container {
-  width: 1800px;
-}
-
 #header {
   text-align:center;
   color:#00b3b3;
+  margin-bottom:50px;
 }
+
 #coverPhoto {
 width: 800px;
 float: left;
