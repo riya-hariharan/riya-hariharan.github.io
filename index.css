@@ -1,4 +1,7 @@
-
+@media (min-width: 1200px)
+.container {
+  width: 18100px;
+}
 
 #header {
   text-align:center;
