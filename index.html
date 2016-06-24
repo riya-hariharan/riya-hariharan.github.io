@@ -31,25 +31,25 @@
        <div class="col-lg-4">
        Menu 
        <ul>
-        <li>North America
+        <li id="na">North America</li> 
         <ul>
          <li class="naItem">United States</li>
          <li class="naItem">Mexico</li>
         </ul>
         </li>
-        <li>Europe</li>
+        <li id="e">Europe</li>
         <ul>
-        <li class="gItem">Germany</li>
-        <li class="gItem">Switzerland</li>
+        <li class="eItem">Germany</li>
+        <li class="eItem">Switzerland</li>
         </ul>
-        <li>Asia</li>
+        <li id="a">Asia</li>
         <ul>
-         <li class="iItem">India</li>
-         <li class="iItem">Singapore</li>
+         <li class="aItem">India</li>
+         <li class="aItem">Singapore</li>
         </ul>
-        <li>Australia</li>
+        <li id="au">Australia</li>
         <ul>
-         <li class="syItem">Sydney</li>
+         <li class="auItem">Sydney</li>
         </ul>
         <li>Places I Want To Visit</li>
         </ul>
@@ -67,10 +67,14 @@
  
  $(function() {
   $(".naItem").hide();
-  $(".gItem").hide();
-  $(".iItem").hide();
-  $(".syItem").hide();
+  $(".eItem").hide();
+  $(".aItem").hide();
+  $(".auItem").hide();
  });
+ $(#"na").click(function)(){
+  event.preventDefault();
+  $(this).children(.'naItem').slideToggle('slow');
+  });
 </script>
 </body>
 
