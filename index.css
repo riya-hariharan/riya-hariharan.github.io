@@ -17,4 +17,5 @@ float: left;
 #menuList {
   text-align:center;
   color:#ff6666;
+  list-style-type:none;
 }
