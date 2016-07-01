@@ -18,3 +18,7 @@ float: left;
   text-align:center;
   list-style-type:none;
 }
+
+#menuList li {
+  list-style-type:none;
+}
