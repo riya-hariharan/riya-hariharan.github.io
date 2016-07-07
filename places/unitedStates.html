@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<head>
+ <title>
+   Riya Hariharan
+ </title> 
+  <link rel="stylesheet" type="text/css" href="./index.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
+
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></</script>
+</head>
+
+<body> 
+
+ <div class="container">
+  
+   <div class="row">
+     <div class="col-lg-12">
+       <h1 id="header">My Travel Journal</h1>
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-lg-8">
+    <img id="coverPhoto" src="riya-hariharan.github.io/images/northamerica/Hawaii-cover.jpg"> 
+     </div>
+       <div class="col-lg-4">
+        <h2 id="menuHeader">Menu</h2>
+       <ul id="menuList">
+       <a href="#"> <li id="na">North America</li> </a>
+        <ul>
+         <a href="#"> <li class="naItem">United States</li> </a>
+         <a href="#"> <li class="naItem">Mexico</li> </a>
+        </ul>
+        </li>
+        <a href="#"> <li id="e">Europe</li> </a>
+        <ul>
+        <a href="#"> <li class="eItem">Germany</li> </a>
+         <a href="#"><li class="eItem">Switzerland</li> </a>
+        </ul>
+        <a href="#"> <li id="a">Asia</li> </a>
+        <ul>
+         <a href="#"> <li class="aItem">India</li> </a>
+          <a href="#"><li class="aItem">Singapore</li> </a>
+        </ul>
+        <a href="#"> <li id="au">Australia</li> </a>
+        <ul>
+         <a href="#"> <li class="auItem">Sydney</li> </a>
+        </ul>
+        <li>Places I Want To Visit</li>
+       </ul>
+     </div>
+   </div>
+   
+   
+   
+   
+   
+ </div>
+
+<script>
+ 
+ $(document).ready(function() {
+  $(".naItem").hide();
+  $(".eItem").hide();
+  $(".aItem").hide();
+  $(".auItem").hide();
+ });
+ 
+ $("#na").click(function () {
+  $(".naItem").toggle();
+ })
+     $("#e").click(function () {
+  $(".eItem").toggle();
+     })
+   $("#a").click(function () {
+  $(".aItem").toggle();
+   })
+   $("#au").click(function () {
+  $(".auItem").toggle();
+ })
+
+</script>
+</body>
+
+</html>
