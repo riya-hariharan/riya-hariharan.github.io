@@ -24,3 +24,8 @@ float: left;
   list-style-type:none;
   text-align:center;
 }
+
+#imageSize {
+  width:400px;
+}
+}
