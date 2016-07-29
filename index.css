@@ -14,11 +14,15 @@ float: left;
   color:#66d9ff;
 }
 
-#menuList a{
+#menuList{
   text-align:center;
   color:#009999;
   list-style-type:none;
-  font-size:100%;
+  
+}
+
+#menulist a{
+font-size: 100%;
 }
 
 #menuList li {
