@@ -21,8 +21,8 @@ float: left;
   
 }
 
-#menulist a li{
-font-size:100%;
+#menulist li span{
+font-size:500%;
 }
 
 #menuList li {
