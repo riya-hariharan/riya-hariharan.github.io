@@ -18,6 +18,7 @@ float: left;
   text-align:center;
   color:#009999;
   list-style-type:none;
+  font-size:100%;
 }
 
 #menuList li {
