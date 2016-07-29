@@ -14,7 +14,7 @@ float: left;
   color:#66d9ff;
 }
 
-#menuList {
+#menuList a{
   text-align:center;
   color:#009999;
   list-style-type:none;
