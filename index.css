@@ -21,7 +21,7 @@ float: left;
   
 }
 
-#menuText li span{
+span.menuText {
 font-size:500%;
 }
 
