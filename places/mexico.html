@@ -1,1 +1,103 @@
+<!DOCTYPE html>
+<head>
+ <title>
+   Riya Hariharan
+ </title> 
+  <link rel="stylesheet" type="text/css" href="../index.css">
+  <!-- Latest compiled and minified CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
 
+  <!-- Optional theme -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap-theme.min.css" integrity="sha384-fLW2N01lMqjakBkx3l/M9EahuwpSfeNvV63J5ezn3uZzapT0u7EYsXMjQV+0En5r" crossorigin="anonymous">
+  
+  <!-- Latest compiled and minified JavaScript -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js" integrity="sha384-0mSbJDEHialfmuBBQP6A4Qrprq5OVfW37PRR3j5ELqxss1yVqOtnepnHVP9aJ7xS" crossorigin="anonymous"></script>
+<script type="text/javascript" src="http://code.jquery.com/jquery-latest.js"></</script>
+</head>
+
+<body> 
+
+ <div class="container">
+  
+   <div class="row">
+     <div class="col-lg-12">
+             <a href= "http://riya-hariharan.github.io/#"><h1 id="header">My Travel Journal</h1></a>
+     </div>
+   </div>
+   <div class="row">
+     <div class="col-lg-8">
+      <div class="row">
+       <div class="col-lg-6 websitePics">
+        <img class="imageSize" src="https://github.com/riya-hariharan/riya-hariharan.github.io/blob/master/images/mexico/IMG_0005.JPG?raw=true"> 
+        <img class="imageSize" src="https://github.com/riya-hariharan/riya-hariharan.github.io/blob/master/images/mexico/IMG_0022.JPG?raw=true">
+
+      </div>
+      <div class="col-lg-6 websitePics">
+   
+        <img class="imageSize" src="https://github.com/riya-hariharan/riya-hariharan.github.io/blob/master/images/mexico/IMG_0046.JPG?raw=true">
+        <img class="imageSize" src="https://github.com/riya-hariharan/riya-hariharan.github.io/blob/master/images/mexico/IMG_0076.JPG?raw=true">
+       
+      </div>
+     </div>
+     </div>
+    
+     
+       <div class="col-lg-4">
+        <h2 id="menuHeader">Menu</h2>
+       <ul id="menuList">
+       <a href="#"> <li id="na"><span class="menuText">North America</span></li> </a>
+        <ul>
+         <a href="http://riya-hariharan.github.io/places/unitedStates.html#"> <li class="naItem"><span class="menuText">United States</span></li> </a>
+         <a href="#"> <li class="naItem"><span class="menuText">Mexico</span></li> </a>
+        </ul>
+        </li>
+        <a href="#"> <li id="e"><span class="menuText">Europe</span></li> </a>
+        <ul>
+        <a href="#"> <li class="eItem"><span class="menuText">Germany</span></li> </a>
+         <a href="#"><li class="eItem"><span class="menuText">Switzerland</span></li> </a>
+        </ul>
+        <a href="#"> <li id="a"><span class="menuText">Asia</span></li> </a>
+        <ul>
+         <a href="#"> <li class="aItem">I<span class="menuText">India</span></li> </a>
+          <a href="#"><li class="aItem"><span class="menuText">Singapore</span></li> </a>
+        </ul>
+        <a href="#"> <li id="au"><span class="menuText">Australia</span></li> </a>
+        <ul>
+         <a href="#"> <li class="auItem"><span class="menuText">Sydney</span></li> </a>
+        </ul>
+        <li><span class="menuText">Places I Want To Visit</span></li>
+       </ul>
+     </div>
+   </div>
+   
+   
+   
+   
+   
+ </div>
+
+<script>
+ 
+ $(document).ready(function() {
+  $(".naItem").hide();
+  $(".eItem").hide();
+  $(".aItem").hide();
+  $(".auItem").hide();
+ });
+ 
+ $("#na").click(function () {
+  $(".naItem").toggle();
+ })
+     $("#e").click(function () {
+  $(".eItem").toggle();
+     })
+   $("#a").click(function () {
+  $(".aItem").toggle();
+   })
+   $("#au").click(function () {
+  $(".auItem").toggle();
+ })
+</script>
+</body>
+
+</html>
